@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문제 5장</title>
+    <style>
+        label {
+            width: 80px;
+        }
+        input[type="submit"] {
+            width: 80px;
+            margin: 20px;
+        }
+        ul {
+            list-style: none;
+            float: left;
+        }   
+    </style>
+</head>
+<body>
+    <div id="container">
+        <form action="" method="POST">
+            <fieldset>
+                <legend>옝약 정보</legend>
+                <ul>
+                    
+                    <li>
+                        <label for="name">이름</label>
+                        <input type="text" id="name" autofocus required>
+                    </li>
+                    
+                    <li>
+                        <label for="email">이메일</label>
+                        <input type="email" id="email" required>
+                    </li>
+                    <li>
+                        <label for="addr">전화</label>
+                        <input type="text" id="addr" required placeholder="핸드폰 연락처">
+                    </li>
+                    
+                </ul>
+            </fieldset>
+            <div>
+                <input type="submit" value="예약 하기">
+                
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
